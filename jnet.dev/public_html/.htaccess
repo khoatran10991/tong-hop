@@ -1,0 +1,9 @@
+ RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php/$0 [PT] 
+RewriteCond %{HTTP_HOST} ^www\.([^.]+\.jweb\.vn)$ [NC]
+RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+RewriteCond %{HTTPS} !on
+RewriteCond %{HTTP_HOST} ^(jweb\.vn)$ [NC]
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}

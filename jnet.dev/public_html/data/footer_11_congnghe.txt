@@ -1,0 +1,68 @@
+﻿<div class="col-lg-3 col-md-3 col-sm-3 m_xs_bottom_30">
+<h3 class="color_light_2 m_bottom_20">Về chúng tôi</h3>
+
+<p class="m_bottom_15">Nam elit agna, endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. Quisque diam lorem.</p>
+
+<p>Interdum vitae, dapibus ac, scelerisque. vitae, pede. Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum auctor pulvinar.</p>
+</div>
+
+<div class="col-lg-2 col-md-2 col-sm-2 m_xs_bottom_30">
+<h3 class="color_light_2 m_bottom_20">Dịch vụ</h3>
+
+<ul class="vertical_list">
+	<li><a class="color_light tr_delay_hover" href="#">My account</a></li>
+	<li><a class="color_light tr_delay_hover" href="#">Order history</a></li>
+	<li><a class="color_light tr_delay_hover" href="#">Wishlist</a></li>
+	<li><a class="color_light tr_delay_hover" href="#">Categories</a></li>
+</ul>
+</div>
+
+<div class="col-lg-2 col-md-2 col-sm-2 m_xs_bottom_30">
+<h3 class="color_light_2 m_bottom_20">Thông tin</h3>
+
+<ul class="vertical_list">
+	<li><a class="color_light tr_delay_hover" href="#">About us</a></li>
+	<li><a class="color_light tr_delay_hover" href="#">Delivery</a></li>
+	<li><a class="color_light tr_delay_hover" href="#">Privacy policy</a></li>
+	<li><a class="color_light tr_delay_hover" href="#">Terms &amp; condition</a></li>
+</ul>
+</div>
+
+<div class="col-lg-2 col-md-2 col-sm-2 m_xs_bottom_30">
+<h3 class="color_light_2 m_bottom_20">Sản phẩm</h3>
+
+<ul class="vertical_list">
+	<li><a class="color_light tr_delay_hover" href="#">New Collection</a></li>
+	<li><a class="color_light tr_delay_hover" href="#">Best Sellers</a></li>
+	<li><a class="color_light tr_delay_hover" href="#">Specials</a></li>
+	<li><a class="color_light tr_delay_hover" href="#">Manufacturers</a></li>
+</ul>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-3">
+<h3 class="color_light_2 m_bottom_20">Liên hệ</h3>
+
+<ul class="c_info_list">
+	<li class="m_bottom_10">
+	<div class="clearfix m_bottom_15">
+	<p class="contact_e">8901 Marmora Road,<br />
+	Glasgow, D04 89GR.</p>
+	</div>
+	</li>
+	<li class="m_bottom_10">
+	<div class="clearfix m_bottom_10">
+	<p class="contact_e">800-559-65-80</p>
+	</div>
+	</li>
+	<li class="m_bottom_10">
+	<div class="clearfix m_bottom_10"><a class="contact_e color_light" href="mailto:#">info@companyname.com</a></div>
+	</li>
+	<li>
+	<div class="clearfix">
+	<p class="contact_e">Monday - Friday: 08.00-20.00<br />
+	Saturday: 09.00-15.00<br />
+	Sunday: closed</p>
+	</div>
+	</li>
+</ul>
+</div>

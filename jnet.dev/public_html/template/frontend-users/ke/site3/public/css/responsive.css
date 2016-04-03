@@ -1,0 +1,155 @@
+@media (min-width: 768px){
+    .navbar-default{
+        background-color: #174966;
+    }
+    .navbar-default .logo{
+        padding: 0 10px 10px 10px;
+    }
+    .affix-content .container {
+        width: 700px;
+    }
+    html,body{
+        height: 100%;
+        overflow: hidden;
+    }
+    .affix-content .container .page-header{
+        margin-top: 0;
+    }
+    .sidebar-nav{
+        position:fixed;
+
+    }
+    .affix-sidebar{
+        padding-right: 0;
+        font-size: small;
+        padding-left: 0;
+    }
+    .affix-row, .affix-container, .affix-content{
+        height: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .affix-content{
+
+    }
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+    .sidebar-nav .navbar{
+        border-radius:0;
+        margin-bottom:0;
+        border:0;
+    }
+    .sidebar-nav .navbar ul {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-size: 15px;
+        color: #ffffff;
+    }
+}
+@media (min-width: 769px){
+    .affix-content .container {
+        width: 600px;
+    }
+    .affix-content .container .page-header{
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 992px){
+    .affix-content .container {
+        width: 900px;
+    }
+    .affix-content .container .page-header{
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1220px){
+    .affix-row{
+        overflow: hidden;
+    }
+
+    .affix-content{
+        overflow: auto;
+    }
+
+    .affix-content .container {
+        width: 1000px;
+    }
+
+    .affix-content .container .page-header{
+        margin-top: 0;
+    }
+    .affix-content{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .affix-title{
+        border-bottom: 1px solid #ecf0f1;
+        padding-bottom:10px;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    .navbar-collapse{
+        padding: 0;
+    }
+    .sidebar-nav .navbar li a:hover {
+        background-color: #428bca;
+        color: white;
+    }
+    .sidebar-nav .navbar li a > .caret {
+        margin-top: 8px;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    button.icon-bar{
+        background-color: #000000!important;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .primary-top.affix {
+        position: static;
+        width: auto;
+        top: 0;
+    }
+    .header-page{
+        display: none;
+    }
+    .flexslider{
+        display: none;
+    }
+    .navbar-default .navbar-brand{
+        height: 100%;
+        padding: 0 15px!important;
+    }
+    header li.hotline{
+        color: #000000;
+    }
+
+    header .logo{
+        display: none;
+    }
+    article .news{
+        display: block;
+    }
+    footer .social{
+        display: none;
+    }
+    footer .hotline span{
+        right: 5px;
+    }
+}

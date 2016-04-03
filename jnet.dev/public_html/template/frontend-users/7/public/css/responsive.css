@@ -1,0 +1,60 @@
+@media (min-width: 768px){
+    header#index .navbar-nav{
+        margin: 5px 0;
+    }
+    header#index .navbar-left{
+        position: absolute;
+        right: 58%;
+    }
+    header#index .navbar-right{
+        position: absolute;
+        left: 59%;
+    }
+    header#index .logo{
+        position: absolute;
+        left: 50%;
+        margin-left: -100px !important;  /* 100px of your logo width */
+        display: block;
+    }
+
+    header#detail .navbar-nav{
+        margin: 5px 0;
+    }
+    header#detail .navbar-left{
+        position: absolute;
+        right: 60%;
+    }
+    header#detail .navbar-right{
+        position: absolute;
+        left: 46%;
+    }
+    header#detail .logo{
+        position: absolute;
+        left: 50%;
+        margin-left: -100px !important;  /* 100px of your logo width */
+        display: block;
+    }
+    .carousel-caption{
+        background: url(../images/bgcarousel-caption.png) repeat;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        bottom: 100px;
+        left: 20px;
+        max-width: 600px;
+        padding: 10px 30px;
+        color: #101010;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    button.icon-bar{
+        background-color: #000000!important;
+    }
+    .nav-menu{
+        display: none;
+    }
+
+}

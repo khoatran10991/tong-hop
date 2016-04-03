@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700&subset=latin,vietnamese);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,600italic);
+body, html{
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100%!important;
+}
+/*Page index*/
+header{
+}
+header .navbar-default{
+    background: url("../images/bghead.png") repeat-x bottom center;
+    border-color: transparent;
+    height: 60px;
+    width: 100%;
+}
+header .navbar{
+    border: 0;
+}
+header#index ul.navbar-nav{
+    margin: 5px;
+}
+header ul.navbar-nav li a{
+    color: #0c0c10;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul.navbar-nav li.focus{
+    background-color: #0062a7;
+}
+header ul.navbar-nav li.focus a{
+    color: #f0f0f0;
+}
+header#detail .logo img{
+    height: 56px;
+}
+/*Detail content*/
+article{
+    height: 100%;
+}
+#carousel-example-generic{
+    height: 100%;
+}
+#carousel-example-generic .carousel-inner{
+    height: 100%;
+}
+#carousel-example-generic .carousel-inner .item{
+    height: 100%;
+}
+#carousel-example-generic .carousel-inner img{
+    height: 100%;
+}
+article#content-detail{
+    background: url("../images/slide1.jpg") no-repeat fixed center;
+    background-size: cover;
+    height: 100%;
+}
+article .content-detail{
+    margin: 80px 0 40px 0;
+    background-color: #ffffff;
+    border: 3px solid #f0f0f0;
+}
+article .content-detail .title-page{
+    font-size: 20px;
+    border-left: 5px solid #ff5a00;
+    padding: 0 10px;
+    color: #ff5a00;
+    margin: 10px 20px;
+}
+article .content-detail .title-page a{
+    color: #ff5a00;
+}
+article .content-detail .content{
+    font-size: 16px;
+    padding: 10px 20px;
+}
+article .content-detail .content img{
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+    border-bottom: 6px solid #e65a04;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+}
+
+footer ul.hotline{
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 0;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    bottom: 0;
+    background-color: #e65a04;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 1px 16px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+footer ul.hotline li{
+    float: left;
+    margin: auto;
+}
+footer ul.hotline li:last-child{
+    margin-left: 10px;
+}
+footer .hotline span.text{
+    padding: 7px 0;
+}
+footer .hotline img{
+    height: 30px;
+}
+

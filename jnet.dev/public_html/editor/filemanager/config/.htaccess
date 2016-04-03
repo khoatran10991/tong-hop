@@ -1,0 +1,4 @@
+Deny from all
+RewriteEngine on
+RewriteRule ^popup.aspx$ dialog.php
+RewriteRule ^([a-zA-Z0-9_-]+).aspx$ $1.php

@@ -1,0 +1,84 @@
+table site_orders
+		=> id_order
+		=> id_store
+		=> order_content (json)
+
+table site_products
+		=> id_product
+		=> id_store
+		=> name_product
+		=> description
+        => images (json)
+		=> price_sale
+		=> price_fix
+		=> url
+		=> content_product(json)
+		=> catalogue (json)	
+		=> status(json)
+        => time_created
+table site_catalogues
+		=> id_catalogue
+		=> id_store
+		=> name_catalogue
+		=> id_parent(id_catalogue)
+table site_customers
+		=> id_customer
+		=> name_customer
+		=> id_store
+		=> content_customer(json)
+table site_coupons
+		=> id_coupon
+		=> id_store
+		=> code_coupon
+		=> coupon_use
+		=> coupon_content
+		=> coupon_limit
+		=> time_start
+		=> time_exp
+table site_pages
+		=> id_page
+		=> id_store
+		=> page_name
+		=> url
+		=> page_content
+		=> time_created
+table site_news
+		=> id_news
+		=> id_store
+		=> news_name
+		=> url
+		=> news_content
+		=> time_created
+table site_menu
+		=> id_menu
+		=> id_store
+		=> menu_content (json)
+table site_config
+		=> id_store
+		=> url_base
+		=> url_pre
+		=> title
+		=> description
+		=> keywords
+		=> phone
+		=> address
+		=> id_theme
+		=> layout (json)
+		=> time_start
+		=> time_exp
+table site_themes
+		=> id_theme
+		=> theme_name
+		=> catalogue
+		=> color
+		=> link_folder
+		=> description
+		=> author
+table site_themes_catalogue 	
+		=> id_catalogue
+		=> catalogue_name
+
+lam them thanh toan, van chuyen, tai khoan, mang xa hoi	
+gui file qua face	
+		
+		
